@@ -1,7 +1,10 @@
 import { ADD_TODO, TOGGLE_TODO } from "../actions/todoActions";
 
 const initialState = {
-  todos: [],
+  todos: [
+    {"text":"Meeting at 9", completed:true},
+    {"text":"Lunch at 1", completed:false}
+  ],
 };
 // initialState is default parameter for the state
 
