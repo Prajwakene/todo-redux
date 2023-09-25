@@ -24,7 +24,7 @@ export function todoReducers(state = initialState, action) {
         return{
             ...state,
             todos:state.todos.map((todos, i) => {
-                if(i==action.index){
+                if(i===action.index){
                     // togglling todo using not operator
                     todos.completed = !todos.completed
                 }
