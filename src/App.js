@@ -24,6 +24,7 @@ function App() {
       <TodoForm onCreateTodo={createTodo} />
       <TodoList todos={todos} onToggle={toggleTodo} />
     </div>
+  
   );
 }
 
